@@ -1,0 +1,110 @@
+:root {
+    --base-shade-1: #00a8fa;
+    --white-shade-1: #ffffff;
+    --white-shade-2: #d7elf3;
+    --black-shade-1: #232323;
+    --black-shade-2: #676a8b;
+    --grad-shade-1: 0, 180, 250;
+    --grad-shade-2: 21, 120, 255;
+   
+    --base-font-size: 1.6rem;
+   
+    --heading-font-size-1: 4rem;
+    --heading-font-size-2: 3.2rem;
+    --heading-font-size-3: 2rem;
+    --heading-font-size-4: 1.8rem;
+   
+    --border-radius-1: 1rem;
+    --border-radius-2: 0.5rem;
+   }
+   *,
+   *:before,
+   *:after {
+             padding: 0;
+             margin: 0;
+             box-sizing: border-box;
+   }
+   *:not(i) {
+       font-family: "poppins",sans-serif;
+   }
+   html{
+       font-size: 62.5%;
+       scroll-behavior: smooth;
+   }
+   
+   header {
+       position: fixed;
+       width: 100%;
+       padding: 3rem 5rem;
+   }
+   nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+   }
+   nav ul{
+       list-style: none;
+       display: flex;
+       gap: var(--heading-font-size-2);
+   }
+   nav a { 
+   font-size: var(--heading-font-size-4);
+   }
+   nav a#logo {
+   color: var(--white-shade-1);
+   font-weight: 700;
+   }
+   nav ul a {
+       color: var(--white-shade-1);
+   }
+   
+   .hero {  
+    max-width: 600px;  
+    padding: 20px;  
+    position: absolute;  
+    left: 300px;  
+    top: 50px;  
+    margin: 20px;  
+}
+input[type=text], select {
+    width: 100%;
+    padding: 20px 40px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=email], select {
+    width: 100%;
+    padding: 20px 40px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 40px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .forms {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  label {
+     font-size:large;
+  }
